@@ -1,0 +1,21 @@
+{
+  "name": "@wangyao1994/cli-pkg-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "cli-pkg-test": "bin/cli.mjs"
+  },
+  "dependencies": {
+    "@wangyao1994/cli-pkg-a": "^1.0.0",
+    "@wangyao1994/cli-pkg-b": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
